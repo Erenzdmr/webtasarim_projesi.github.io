@@ -1,0 +1,28 @@
+html body{
+    background-color: black;
+    font-style: italic;
+}
+
+.container .row .col-sm{
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.container .row .col-sm img {
+    height: 250px;
+    width: 500px;
+    margin-right: 40px;
+
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    color: black;
+    height: 50px;
+    margin-top: 40px;
+}
+
+
+
+

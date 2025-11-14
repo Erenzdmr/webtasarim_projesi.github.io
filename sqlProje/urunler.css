@@ -1,0 +1,40 @@
+html body{
+    background-color: white;
+    font-style: italic;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+
+.container .card:hover {
+    -ms-transform: scale(1.03);
+    /* IE 9 */
+    -webkit-transform: scale(1.03);
+    /* Safari 3-8 */
+    transform: scale(1.03);
+}
+
+.container h1{
+    text-align: center;
+    color: black;
+}
+
+.container .col-sm{
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 25px;
+}
+
+.container .card-body{
+    height:300px
+}
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    color: black;
+    height: 50px;
+    margin-top: 40px;
+}

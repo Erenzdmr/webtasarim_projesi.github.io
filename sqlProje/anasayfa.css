@@ -1,0 +1,76 @@
+body {
+
+    font-family: "Libertinus Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html body {
+    background-color: blanchedalmond;
+    font-style: italic;
+}
+
+
+.ASayfaBir {
+    position: relative;
+    width: 100vw;
+    height: 150vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+#AnasayfaVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    margin-top: 55px;
+}
+
+.Aurunler .card {
+    width: 300px;
+    height: 500px;
+}
+
+.Aafis {
+    background-color: blanchedalmond;
+}
+
+
+.container .card {
+    background-color: aliceblue;
+    border-radius: 20px;
+    color: black;
+}
+
+.container .card:hover {
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -webkit-transform: scale(1.05);
+    /* Safari 3-8 */
+    transform: scale(1.05);
+}
+
+
+.container h2 {
+    color: black;
+}
+
+.container .row .col-sm-6 p {
+    color: black;
+}
+
+.container .row .col-sm-6 img {
+    height: 400px;
+    width: 500px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+}
